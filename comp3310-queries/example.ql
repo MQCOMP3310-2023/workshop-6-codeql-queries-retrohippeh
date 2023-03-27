@@ -12,5 +12,5 @@
      loop.getAChild*() = call.getEnclosingStmt() and
      call.getMethod() = method and
      method.hasName("nextLine") 
-     select call,loop, "This calls nextLine of a scanner in a loop"
+     select call, "This calls nextLine of a scanner in a loop"
  
